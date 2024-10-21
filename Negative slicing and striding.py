@@ -59,8 +59,6 @@ a="Python course"
 >>> a[-3:-14:-3]
 'ncaD'
 >>> a="Data Structure"
->>> a[-3:-14:-33]
-'u'
 >>> a[-3:-14:-3]
 'uuSt'
 >>> a[-4:-12:-4]
@@ -78,7 +76,5 @@ a="Python course"
 ''
 >>> a[5:3]
 ''
->>> here in positive striding highest to lowest is not possible.so if we do it gives empty string
-SyntaxError: invalid syntax
 >>> #here in positive striding highest to lowest is not possible.so if we do it gives empty string
 >>> #here in negative striding lowest to highest is not possible.so if we do it gives empty string.
